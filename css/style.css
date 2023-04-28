@@ -1,3 +1,40 @@
-body{
-    color: black;
+section#hero {
+
+}
+section#hero .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 24px;
+
+}
+section#hero .row .column img {
+    /* max-width:600px; */
+width: 100%;
+
+}
+section#hero .row .column {
+    /* max-width:600px; */
+width: 50%;
+
+}
+/* global row styles */
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 24px;
+
+}
+.row .column img {
+    /* max-width:600px; */
+width: 100%;
+
+}
+.row .column {
+    /* max-width:600px; */
+width: 50%;
+
 }
